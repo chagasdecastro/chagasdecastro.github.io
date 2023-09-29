@@ -1,6 +1,7 @@
 /* Estilos específicos para dispositivos móveis com largura máxima de 768 pixels */
 @media screen and (max-width: 800px) {
     body {
+        min-height: auto;
         padding: 0;
         font-size: 12px;
     }
@@ -28,9 +29,9 @@
     }
 
     section {
-        margin-left: 25%;
-        margin-right: 0;
-        margin: 10px; /* Você pode ajustar essa margem conforme necessário */
+        width: 100%;
+        margin-left: 30%;
+        margin: 10px 0; /* Você pode ajustar essa margem conforme necessário */
         padding: 10px;
     }
 
@@ -44,7 +45,7 @@
     /* Certifique-se de que cada card ocupe uma linha inteira */
     .col-md-3 {
         width: 100%; /* Defina a largura para 100% para uma única coluna por linha */
-        margin-bottom: 20px; /* Adicione um espaçamento entre os cards */
+        margin-bottom: 15px; /* Adicione um espaçamento entre os cards */
     }
 
     .custom-btn {
