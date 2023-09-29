@@ -1,17 +1,27 @@
-/* mobile.css */
-
 /* Estilos específicos para dispositivos móveis com largura máxima de 768 pixels */
 @media screen and (max-width: 800px) {
     body {
         margin-left: 0;
+        padding: 0;
+        font-size: 12px;
     }
 
     header {
         margin-left: 0;
     }
 
+    header p {
+        font-size: 6px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .typing-text {
+        font-size: 14px;
+    }
+
     nav {
-        width: 15%;
+        width: 30%;
         padding: 15px;
         height: 100%;
         overflow-y: auto;
@@ -20,5 +30,25 @@
     section {
         margin-left: 0;
         margin-right: 0;
+        margin: 10px; /* Você pode ajustar essa margem conforme necessário */
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: none; /* Remova a largura máxima */
+        height: auto;
+    }
+
+    /* Certifique-se de que cada card ocupe uma linha inteira */
+    .col-md-3 {
+        width: 100%; /* Defina a largura para 100% para uma única coluna por linha */
+        margin-bottom: 20px; /* Adicione um espaçamento entre os cards */
+    }
+
+    .custom-btn {
+        width: auto; /* Defina a largura automática para que se ajustem ao conteúdo */
+        padding: 5px 15px; /* Reduza o preenchimento para torná-los menores */
+        font-size: 12px; /* Reduza o tamanho da fonte */
     }
 }
