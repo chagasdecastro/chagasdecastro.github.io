@@ -1,0 +1,24 @@
+/* mobile.css */
+
+/* Estilos específicos para dispositivos móveis com largura máxima de 768 pixels */
+@media screen and (max-width: 800px) {
+    body {
+        margin-left: 0;
+    }
+
+    header {
+        margin-left: 0;
+    }
+
+    nav {
+        width: 15%;
+        padding: 15px;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
