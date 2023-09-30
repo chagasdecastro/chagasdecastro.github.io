@@ -6,6 +6,12 @@ body {
     min-height: 100vh;
     padding: 0;
     position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "cv11","salt","ss01","ss03",
+    "cv01","cv02","cv03","cv04",
+    "cv05", "cv06","cv09","cv10";
 }
 
 header {
@@ -122,7 +128,7 @@ section {
     margin-left: 300px;
     margin-right: 90px;
     margin-bottom: 40px;
-    transition: transform 0.5s ease; /* Adicione uma transição suave */
+    transition: transform 0.5s ease;
 }
 
 section:hover {
@@ -142,9 +148,9 @@ h6 {
 .icon-container .icon {
     display: inline;
     align-items: center;
-    width: 80px; /* Largura desejada para os ícones */
-    height: 80px; /* Altura desejada para os ícones */
-    margin-right: 10px; /* Espaçamento entre os ícones (ajuste conforme necessário) */
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
     transition: transform 0.3s ease;
 }
 
@@ -294,12 +300,12 @@ footer p {
     cursor: pointer;
     transition: opacity 0.2s;
     max-width: fit-content;
-    opacity: 0; /* Inicialmente, o botão está oculto */
-    transition: opacity 0.3s ease; /* Adiciona uma transição suave para a opacidade */
+    opacity: 0; 
+    transition: opacity 0.3s ease;
 }
 
 #scrollToTopBtn.show {
-    opacity: 1; /* Quando a classe 'show' é adicionada, o botão aparece gradualmente */
+    opacity: 1; 
 }
 
 
@@ -308,7 +314,7 @@ footer p {
 }
 
 .push {
-    height: 100px; /* Ajuste a altura conforme necessário */
+    height: 100px;
 }
 
 @media screen and (max-width: 767px) {
@@ -351,57 +357,55 @@ footer p {
         width: 25%;
         padding: 15px;
         overflow-y: auto;
-        height: 100vh; /* Altura igual à viewport */
-        bottom: 0; /* Encosta no chão */
-        display: flex; /* Centralize verticalmente o conteúdo */
-        flex-direction: column; /* Alinhe os elementos verticalmente */
+        height: 100vh;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
     section {
         margin-left: 120px;
-        margin-right: 20px; /* Adicione margem à direita das sections */
+        margin-right: 20px;
         padding: 15px;
     }
 
     section img {
-        max-width: 100%; /* Reduz a largura da imagem para caber na largura da section */
-        height: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        height: auto;
     }
 
     .profile {
-        /* Aumente o tamanho da imagem de perfil */
-        width: 100px; /* Defina a largura desejada para a imagem de perfil */
-        height: 100px; /* Defina a altura desejada para a imagem de perfil */
-        border-radius: 50%; /* Para torná-la redonda, se desejar */
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
     }
 
     .icon-container {
-        display: flex; /* Use flexbox para centralizar verticalmente */
-        align-items: center; /* Centralize verticalmente os ícones */
-        justify-content: center; /* Centralize horizontalmente os ícones */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .icon {
-        max-width: 100%; /* Mantenha a proporção da imagem */
-        height: auto; /* Mantenha a proporção da imagem */
+        max-width: 100%;
+        height: auto;
     }       
     
     .card {
-        margin-left: 10%; /* Defina uma margem esquerda menor */
-        margin-right: 10%; /* Defina uma margem direita menor */
-        width: 80%; /* Ajuste a largura dos cards conforme necessário */
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
         height: 90%;
     }
 
     .card-body {
-        padding: 9px; /* Ajuste o espaçamento interno conforme necessário */
+        padding: 9px;
     }
 
-    /* Certifique-se de que cada card ocupe uma linha inteira */
     .col-md-3 {
-        width: 100%; /* Defina a largura para 100% para um card por linha */
-        margin-bottom: 10px; /* Adicione um espaçamento entre os cards */
+        width: 100%;
+        margin-bottom: 10px; 
     }
 
     .scrollToTopBtn {
@@ -413,14 +417,14 @@ footer p {
     
     .custom-btn {
         align-items: center;
-        width: auto; /* Permita que a largura dos botões se ajuste ao tamanho do conteúdo */
-        padding: 5% 5%; /* Use porcentagens para o padding (cima/baixo e esquerda/direita) */
-        font-size: 12px; /* Reduza o tamanho da fonte */
+        width: auto;
+        padding: 5% 5%;
+        font-size: 12px;
         line-height: 1;
     }
 
     ::placeholder {
-        font-size: 10px; /* Defina o tamanho de fonte desejado */
+        font-size: 10px;
     }
     
     footer {
@@ -432,7 +436,7 @@ footer p {
     }
     
     footer p {
-        margin-left: 90px; /* Ajuste a margem esquerda conforme necessário */
-        margin-right: 70px; /* Ajuste a margem direita conforme necessário */
+        margin-left: 90px;
+        margin-right: 70px;
     }      
 }
