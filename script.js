@@ -92,4 +92,34 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById("scrollToTopBtn").classList.remove("show");
         }
     });
+
+    const svgElement = document.getElementById("meuSVG");
+
+    const navElement = document.getElementById("meuNav");
+    const backgroundElement = document.getElementById("meuBackground");
+    const sections = document.querySelectorAll("section");
+
+    let coresAlternadas = false;
+
+    // Adicione um ouvinte de clique ao elemento SVG
+    svgElement.addEventListener("click", function() {
+        // Verifique o estado atual das cores e alterne
+        if (coresAlternadas) {
+            navElement.style.backgroundColor = "#221722";
+            backgroundElement.style.backgroundColor = "#37283a";
+            sections.forEach(function(section) {
+                section.style.backgroundColor = "#a1a1a1";
+            });
+        } else {
+            navElement.style.backgroundColor = "#716075";
+            backgroundElement.style.backgroundColor = "#e7e7e7";
+            sections.forEach(function(section) {
+                section.style.backgroundColor = "#fff";
+            });
+        }
+
+        // Alterne o estado das cores
+        coresAlternadas = !coresAlternadas;
+    });
+
 });

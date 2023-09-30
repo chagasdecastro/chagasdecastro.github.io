@@ -10,212 +10,232 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header">
-        <br>
-        <h1 class="centered-text typing-text">Chayenne Chagas de Castro</h1>
-        <p class="centered-text">Bióloga em "metamorfose" para desenvolvimento web</p>
-    </header>
-    <br>
-
-    <nav>
-        <div class="menu">
-            <a href="#header">
-                <div class="profile">
-                    <img src="img/3x4.jpeg" class="img-fluid" alt="Sua Foto"> 
-                </div>
-            </a>
-            <ul>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#projetos">Projetos</a></li>                
-                <li><a href="#experiencia">Experiência</a></li>
-                <li><a href="#curriculo">Currículo (PDF)</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </div>          
-    </nav>
-    <br>
-
-    <section id="sobre">
-        <h5 class="centered-text">Sobre mim</h5>
-        <br>
-        <p>
-            Mineira do sul de Minas, crescida entre serras e cachoeiras. Graduada em Ciências Biológicas e uma carreira em transição para a tecnologia, apaixonada por desenvolvimento web, web design, python e computação em nuvem. Nas horas vagas, brinco de ser artesã e desenhista.
-            Atualmente sou aluna do projeto ElasNaTech2023, onde desenvolvi diversos projetos, inclusive esse portfólio.       
-            Muito empolgada para continuar aprendendo e crescendo nessa área, mantendo minhas raízes, paixões e trazendo minha bagagem multidisciplinar como parte de quem sou.
-        </p>
-        <br>
-
-        <div class="center-icon">
-            <div class="icon-container">
-                <a href="https://www.linkedin.com/in/chagasdecastro/" target="_blank">
-                    <img src="img/1.png" class="icon img-fluid" alt="Linkedin">
-                </a>
-                <div class="highlight"></div>
-            </div>
-            <div class="icon-container">
-                <a href="https://github.com/chagasdecastro" target="_blank">
-                    <img src="img/2.png" class="icon img-fluid" alt="Github">
-                </a>
-                <div class="highlight"></div>
-            </div>
-            <div class="icon-container">
-                <a href="https://www.behance.net/chacreativehub" target="_blank">
-                    <img src="img/3.png" class="icon img-fluid" alt="Behance">
-                </a>
-                <div class="highlight"></div>
-            </div>
-        </div>
-    </section>
-    <br>
-
-    <section id="formacao">
-        <h5 class="centered-text">Minhas formações</h5>
-        <br>
-        <ul>
-            <li>
-                <h6> Computação  ·  Instituto Federal do Triângulo Mineiro (IFTM)</h6>
-                <p> 2023 - 2027 (cursando) </p>
-            </li>
+    <main id="meuBackground">
+        <header id="header">
             <br>
-            <li>
-                <h6> Análise e desenvolvimento de Sistemas  ·  Unifavip (Wyden)</h6>
-                <p> 2023 - 2025 (cursando) </p>
-            </li>
-            <br>
-            <li>
-                <h6> Ciências Biológicas  ·  Universidade Federal de Lavras (UFLA)</h6>
-                <p> 2018 - 2022 (concluído) </p>
-            </li>
-        </ul>
-    </section>
-    <br>
-  
-    <section id="projetos">
-        <h5 class="centered-text">Principais projetos</h5>
+            <h1 class="centered-text typing-text">Chayenne Chagas de Castro</h1>
+            <p class="centered-text">Bióloga em "metamorfose" para desenvolvimento web</p>
+            <div class="svg-container">
+                <svg id="meuSVG" width="35" height="35"  style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                </svg>
+            </div>
+            
+        </header>
         <br>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/python.png" class="card-img-top" data-alt-src="img/python.png" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-title">Espécies ameaçadas</h6>
-                        <p class="card-text">Gerador de imagens e informações espécies ameaçadas no Brasil</p>
-                        <a href="#" target="_blank">
-                            <button class="custom-btn btn-6"><span>Veja mais</span></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/python.png" class="card-img-top" data-alt-src="img/python.png" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-title">Uai Restaurante</h6>
-                        <p class="card-text">Atividade para o ElasNaTech2023, utilizando HTML e CSS</p>
-                        <a href="https://chagasdecastro.github.io/site-cafeteria-xxx/" target="_blank">
-                            <button class="custom-btn btn-6"><span>Veja mais</span></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/python.png" class="card-img-top" data-alt-src="img/python.png" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-title">Pomodoro Timer</h6>
-                        <p class="card-text">Pomodoro desenvolvido utilizando HTML, CSS e JavaScript</p>
-                        <a href="#" target="_blank">
-                            <button class="custom-btn btn-6"><span>Veja mais</span></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="img/python.png" class="card-img-top" data-alt-src="img/python.png" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-title">Gerador de senha</h6>
-                        <p class="card-text">Projeto desenvolvido utilizando Python e interface com HTML, CSS e JS</p>
-                        <a href="#" target="_blank">
-                            <button class="custom-btn btn-6"><span>Veja mais</span></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <br>  
     
-    <section id="experiencia">
-        <h5 class="centered-text">Experiência profissional</h5>
+        <nav id="meuNav">
+            <div class="menu">
+                <a href="#header">
+                    <div class="profile">
+                        <img src="img/3x4.jpeg" class="img-fluid" alt="Sua Foto"> 
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#projetos">Projetos</a></li>                
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#curriculo">Currículo (PDF)</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>          
+        </nav>
         <br>
-        <ul>
-            <li>
-                <h6> Social media e designer </h6>
-                <p> Freelancer  ·  2023 - Atualmente </p>
-            </li>
+    
+        <section id="sobre">
+            <h5 class="centered-text">Sobre mim</h5>
             <br>
-            <li>
-                <h6>Estagiário em Pesquisa e Desenvolvimento</h6>
-                <p>Universidade Federal de Lavras  ·  jan de 2021 - dez de 2022 </p>
-            </li>
+            <p>
+                Mineira do sul de Minas, crescida entre serras e cachoeiras. Graduada em Ciências Biológicas e uma carreira em transição para a tecnologia, apaixonada por desenvolvimento web, web design, python e computação em nuvem. Nas horas vagas, brinco de ser artesã e desenhista.
+                Atualmente sou aluna do projeto ElasNaTech2023, onde desenvolvi diversos projetos, inclusive esse portfólio.       
+                Muito empolgada para continuar aprendendo e crescendo nessa área, mantendo minhas raízes, paixões e trazendo minha bagagem multidisciplinar como parte de quem sou.
+            </p>
             <br>
-            <li>
-                <h6> Iniciação à docência (monitoria) </h6>
-                <p> Universidade Federal de Lavras  ·  set de 2021 - dez de 2020 </p>
-            </li>
-        </ul>
-    </section>
-    <br>
-
-    <section id="curriculo">
-        <h5 class="centered-text">Currículo</h5>
-        <br>
-        <h6>Aqui você pode baixar o meu currículo em PDF:</h6>
-        <br>
-        <a href="Curriculo_ChayennedeCastro.pdf" download="seu-curriculo.pdf" target="_blank">
-            <button class="custom-btn btn-6"><span>Download</span></button>
-        </a>
-    </section>
-    <br>
-
-    <section id="contato">
-        <h5 class="centered-text">Contato</h5>
-        <div>
-            <h6>Entre em contato comigo</h6>
-            <br>
-            <form target="_blank" action="https://formsubmit.co/chagasdecastro@outlook.com" method="POST">
-              <div class="form-group">
-                <div class="form-row">
-                  <div class="col">
-                    <input type="text" name="name" class="form-control" placeholder="Seu nome" required>
-                  </div>
-                  <br>
-                  <div class="col">
-                    <input type="email" name="email" class="form-control" placeholder="Seu e-mail" required>
-                  </div>
-                  <br>
+    
+            <div class="center-icon">
+                <div class="icon-container">
+                    <a href="https://www.linkedin.com/in/chagasdecastro/" target="_blank">
+                        <img src="img/1.png" class="icon img-fluid" alt="Linkedin">
+                    </a>
+                    <div class="highlight"></div>
                 </div>
+                <div class="icon-container">
+                    <a href="https://github.com/chagasdecastro" target="_blank">
+                        <img src="img/2.png" class="icon img-fluid" alt="Github">
+                    </a>
+                    <div class="highlight"></div>
+                </div>
+                <div class="icon-container">
+                    <a href="https://www.behance.net/chacreativehub" target="_blank">
+                        <img src="img/3.png" class="icon img-fluid" alt="Behance">
+                    </a>
+                    <div class="highlight"></div>
+                </div>
+            </div>
+        </section>
+        <br>
+    
+        <section id="formacao">
+            <h5 class="centered-text">Minhas formações</h5>
+            <br>
+            <ul>
+                <li>
+                    <h6> Computação  ·  Instituto Federal do Triângulo Mineiro (IFTM)</h6>
+                    <p> 2023 - 2027 (cursando) </p>
+                </li>
+                <br>
+                <li>
+                    <h6> Análise e desenvolvimento de Sistemas  ·  Unifavip (Wyden)</h6>
+                    <p> 2023 - 2025 (cursando) </p>
+                </li>
+                <br>
+                <li>
+                    <h6> Ciências Biológicas  ·  Universidade Federal de Lavras (UFLA)</h6>
+                    <p> 2018 - 2022 (concluído) </p>
+                </li>
+            </ul>
+        </section>
+        <br>
+      
+        <section id="projetos">
+            <h5 class="centered-text">Principais projetos</h5>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/python.png" class="card-img-top" data-alt-src="img/python.png" alt="imagem e código do projeto pomodoro">
+                        <div class="card-body">
+                            <h6 class="card-title">Espécies ameaçadas</h6>
+                            <p class="card-text">Gerador de imagens e informações espécies ameaçadas no Brasil</p>
+                            <a href="#" target="_blank">
+                                <button class="custom-btn btn-6"><span>Veja mais</span></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/uai1.png" class="card-img-top" data-alt-src="img/uai2.png" alt="imagem e código do projeto pomodoro">
+                        <div class="card-body">
+                            <h6 class="card-title">Uai Restaurante</h6>
+                            <p class="card-text">Atividade para o projeto ElasNaTech2023, utilizando HTML e CSS</p>
+                            <a href="https://chagasdecastro.github.io/uai-restaurante/" target="_blank">
+                                <button class="custom-btn btn-6"><span>Veja mais</span></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pomo1.png" class="card-img-top" data-alt-src="img/pomo2.png" alt="imagem e código do projeto pomodoro">
+                        <div class="card-body">
+                            <h6 class="card-title">Pomodoro Timer</h6>
+                            <p class="card-text">Pomodoro desenvolvido utilizando HTML, CSS e JavaScript</p>
+                            <a href="https://chagasdecastro.github.io/pomodoro-timer/" target="_blank">
+                                <button class="custom-btn btn-6"><span>Veja mais</span></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/python.png" class="card-img-top" data-alt-src="img/python.png" alt="imagem e código do projeto pomodoro">
+                        <div class="card-body">
+                            <h6 class="card-title">Gerador de senha</h6>
+                            <p class="card-text">Projeto desenvolvido utilizando Python e interface com HTML, CSS e JS</p>
+                            <a href="#" target="_blank">
+                                <button class="custom-btn btn-6"><span>Veja mais</span></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>  
+        
+        <section id="experiencia">
+            <h5 class="centered-text">Experiência profissional</h5>
+            <br>
+            <ul>
+                <li>
+                    <h6> Social media e designer </h6>
+                    <p> Freelancer  ·  2023 - Atualmente </p>
+                </li>
+                <br>
+                <li>
+                    <h6>Estagiário em Pesquisa e Desenvolvimento</h6>
+                    <p>Universidade Federal de Lavras  ·  jan de 2021 - dez de 2022 </p>
+                </li>
+                <br>
+                <li>
+                    <h6> Iniciação à docência (monitoria) </h6>
+                    <p> Universidade Federal de Lavras  ·  set de 2021 - dez de 2020 </p>
+                </li>
+            </ul>
+        </section>
+        <br>
+    
+        <section id="curriculo">
+            <h5 class="centered-text">Currículo</h5>
+            <br>
+            <h6>Aqui você pode baixar o meu currículo em PDF:</h6>
+            <br>
+            <a href="Curriculo_ChayennedeCastro.pdf" download="seu-curriculo.pdf" target="_blank">
+                <button class="custom-btn btn-6"><span>Download</span></button>
+            </a>
+        </section>
+        <br>
+    
+        <section id="contato">
+            <h5 class="centered-text">Contato</h5>
+            <div>
+                <h6>Entre em contato comigo</h6>
+                <br>
+                <form target="_blank" action="https://formsubmit.co/chagasdecastro@outlook.com" method="POST">
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Seu nome" required>
+                      </div>
+                      <br>
+                      <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Seu e-mail" required>
+                      </div>
+                      <br>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Deixe sua mensagem aqui" class="form-control" name="message" rows="10" required></textarea>
+                  </div>
+                  <br>
+                    <button type="submit" class="custom-btn btn-6"><span>Enviar</span></button>
+                </form>
               </div>
-              <div class="form-group">
-                <textarea placeholder="Deixe sua mensagem aqui" class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <br>
-                <button type="submit" class="custom-btn btn-6"><span>Enviar</span></button>
-            </form>
-          </div>
-    </section>
-    <br>
+        </section>
+        <br>
+    </main>
 
     <button id="scrollToTopBtn" title="Rolar ao Topo" class="custom-btn btn-6"><span>  ·  Início  ·  </span></button>
-
+   
     <footer class="footer-bg centered-text">
-        <p>
-            2023 - Chayenne Chagas de Castro <br>
-            <br>
-            Estilização dos botões por https://www.brasilcode.com.br/
-        </p>
+        <div class="footer-left">
+            <p>
+                2023 - Chayenne Chagas de Castro 
+            </p>
+        </div>
+        <div class="footer-right">
+            <p>
+                <br>
+                Botões: www.brasilcode.com.br
+                <br>
+                Fontes: Google Fonts
+                <br>
+                Forms: formsubmit.co
+                <br>
+                Icon: heroicons.com
+            </p>
+        </div>
     </footer>  
     
     <div class="push"></div>

@@ -50,6 +50,14 @@ header p {
     }
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 .typing-text {
     font-size: 24px;
     font-weight: bold;
@@ -128,12 +136,17 @@ section {
     margin-left: 300px;
     margin-right: 90px;
     margin-bottom: 40px;
-    transition: transform 0.5s ease;
+    transition: box-shadow 0.3s ease;
+}
+
+.svg-container {
+    text-align: left;
+    height: 0vh; 
 }
 
 section:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 h6 {
@@ -159,15 +172,31 @@ h6 {
 }
 
 #contato {
-    padding: 30px;
+    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
-#curriculo {
-    padding: 30px;
+footer {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.164); 
 }
 
 footer p {
+    font-weight: bold;
+    font-size: 16px;
     margin-left: 200px;
+}
+
+.footer-left {
+    flex-grow: 1; 
+}
+
+.footer-right {
+    margin-left: 300px; 
 }
 
 .footer-bg {
