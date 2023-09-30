@@ -102,10 +102,11 @@ nav a {
 }
 
 .card-body {
-    height: 250px; /* Defina a altura fixa para o corpo do card */
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center; /* Centraliza os itens horizontalmente */
 }
 
 /* Estilo padrão dos projetos */
@@ -165,7 +166,7 @@ h6 {
 }
 
 footer p {
-    margin: 0;
+    margin-left: 200px;
 }
 
 .footer-bg {
@@ -333,11 +334,6 @@ footer p {
         padding: 0;
     }
 
-    header h1 {
-        font-size: 4vw; /* Tamanho de fonte responsivo */
-        padding: 0; /* Adicione algum espaço acolchoado para afastar o texto das bordas do elemento */
-    }
-
     h5 {
         font-size: 14px;
     }
@@ -348,7 +344,7 @@ footer p {
 
     .typing-text {
         margin-left: 25%;
-        font-size: 14px;
+        font-size: 4vw;
     }
 
     nav {
@@ -371,12 +367,8 @@ footer p {
     }
 
     .img-fluid {
-        max-width: 80%; /* Aumente o valor para aumentar a largura máxima da imagem */
-        max-height: 80%; /* Aumente o valor para aumentar a altura máxima da imagem */
-        height: auto;
-        border-radius: 70%;
-        border: none;
-        padding: 25px;
+        max-width: 100%; /* Reduz a largura da imagem para caber na largura da section */
+        height: auto; /* Mantém a proporção da imagem */
     }
     
     .card {
