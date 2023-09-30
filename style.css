@@ -425,7 +425,9 @@ footer p {
     .scrollToTopBtn {
         align-items: center;
         width: auto;
-    }
+        margin: 10px; /* Ajuste as margens conforme necessário para diminuir as bordas */
+        padding: 5px 10px; /* Ajuste o padding conforme necessário para diminuir as bordas */
+    }    
 
     footer {
         position: fixed;
