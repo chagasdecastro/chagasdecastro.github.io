@@ -424,7 +424,9 @@ footer p {
 
     .scrollToTopBtn {
         align-items: center;
-        max-width: fit-content !important;
+        max-width: fit-content;
+        padding-bottom: 5px;
+        border-radius: 50%;
     }
     
     footer {
