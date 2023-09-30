@@ -337,7 +337,6 @@ footer p {
     opacity: 1; 
 }
 
-
 #scrollToTopBtn:hover {
     background-color: #c8c8c9;
 }
@@ -350,7 +349,7 @@ footer p {
     body {
         min-height: auto;
         padding: 0;
-        font-size: 0.6em; /* 11px em relação a 16px (tamanho de fonte padrão) */
+        font-size: 0.7em; 
     }
 
     header {
@@ -358,13 +357,14 @@ footer p {
         margin-left: 15%;
         position: relative;
         height: auto;
-        padding: 0.625em 0; /* 10px em relação a 16px (tamanho de fonte padrão) */
+        padding: 0.625em 0; 
     }
 
     header p {
-        font-size: 0.75em; /* 12px em relação a 16px (tamanho de fonte padrão) */
+        font-size: 0.8em;
         position: absolute;
-        margin-right: 0.7em; /* 5px em relação a 16px (tamanho de fonte padrão) */
+        margin-left: 0.7em;
+
     }
 
     h1 {
@@ -373,41 +373,42 @@ footer p {
     }
 
     h5 {
-        font-size: 0.875em; /* 14px em relação a 16px (tamanho de fonte padrão) */
+        font-size: 1em; 
     }
 
     h6 {
-        font-size: 0.8125em; /* 13px em relação a 16px (tamanho de fonte padrão) */
+        font-size: 0.990em; 
     }
 
     .typing-text {
-        font-size: 3.125vw; /* 3.125% da largura da tela */
+        font-size: 3.125vw;
     }
 
     nav {
         width: 15%;
-        padding: 0.6em; /* 10px em relação a 16px (tamanho de fonte padrão) */
+        padding: 0.6em; 
         overflow-y: auto;
         height: 100vh !important;
         bottom: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 0.5em; /* 10px em relação a 16px (tamanho de fonte padrão) */
+        font-size: 0.8em; 
     }
 
     #meuNav {
-        font-size: 0.6em; /* 10px em relação a 16px (tamanho de fonte padrão) */
+        font-size: 0.8em; 
     }
 
     #meuBackground {
         width: 100%;
+        font-size: 0.7em; 
     }
 
     section {
-        margin-left: 7.5em; /* 120px em relação a 16px (tamanho de fonte padrão) */
-        margin-right: 1.25em; /* 20px em relação a 16px (tamanho de fonte padrão) */
-        padding: 0.8em; /* 15px em relação a 16px (tamanho de fonte padrão) */
+        margin-left: 7.5em;
+        margin-right: 1.25em; 
+        padding: 0.5em;
     }
 
     section img {
@@ -416,8 +417,8 @@ footer p {
     }
 
     .profile {
-        width: 10em; /* 100px em relação a 16px (tamanho de fonte padrão) */
-        height: 10em; /* 100px em relação a 16px (tamanho de fonte padrão) */
+        width: 17em; 
+        height: 17em; 
         border-radius: 50%;
     }
 
@@ -433,38 +434,39 @@ footer p {
     }       
     
     .card {
-        margin-left: 1.5em; /* 10% em relação a 16px (tamanho de fonte padrão) */
-        margin-right: 1.5em; /* 10% em relação a 16px (tamanho de fonte padrão) */
+        margin-left: 1.5em; 
+        margin-right: 1.5em; 
         width: 70%;
-        height: auto;
+        height: 50%;
     }
 
     .card-body {
-        padding: 0.6em; /* 9px em relação a 16px (tamanho de fonte padrão) */
+        padding: 0.6em; 
+        text-align: center;
     }
 
     .col-md-3 {
         width: 100%;
-        margin-bottom: 0.6em; /* 10px em relação a 16px (tamanho de fonte padrão) */
+        margin-bottom: 0.6em; 
     }
 
     .scrollToTopBtn {
         align-items: center;
         max-width: fit-content;
-        padding-bottom: 0.3em; /* 5px em relação a 16px (tamanho de fonte padrão) */
+        padding-bottom: 0.3em; 
         border-radius: 50%;
     }
     
     .custom-btn {
         align-items: center;
         width: auto;
-        padding: 0.3em 0.3em; /* 5% em relação a 16px (tamanho de fonte padrão) */
-        font-size: 0.75em; /* 12px em relação a 16px (tamanho de fonte padrão) */
+        padding: 0.3em 0.3em; 
+        font-size: 0.75em; 
         line-height: 1;
     }
 
     ::placeholder {
-        font-size: 0.625em; /* 10px em relação a 16px (tamanho de fonte padrão) */
+        font-size: 0.625em; 
     }
     
     footer {
@@ -477,16 +479,19 @@ footer p {
 
     .footer-left,
     .footer-right {
-        font-size: 0.3em; /* 8px em relação a 16px (tamanho de fonte padrão) */
+        font-size: 0.3em;
         line-height: 1.2;
-        font-weight: bold;
-        margin: 0; /* Remover margens para reduzir o espaçamento entre os elementos */
-        padding: 0.3em 0; /* Adicionar padding para controlar o espaçamento interno */
+        margin: 0; 
+        padding: 0.3em 0; 
+    }
+
+    .footer-left {
+        padding-right: 1em; 
     }
 
     .footer-right br {
         display: none;
-        margin-bottom: 0.2em; /* 5px em relação a 16px (tamanho de fonte padrão) */
+        margin-bottom: 0.2em; 
     }
 }
 
