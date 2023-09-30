@@ -390,7 +390,7 @@ footer p {
     }
 
     .card-body {
-        padding: 15px; /* Ajuste o espaçamento interno conforme necessário */
+        padding: 6px; /* Ajuste o espaçamento interno conforme necessário */
     }
 
     /* Certifique-se de que cada card ocupe uma linha inteira */
@@ -408,7 +408,7 @@ footer p {
     }
 
     ::placeholder {
-        font-size: 11px; /* Defina o tamanho de fonte desejado */
+        font-size: 10px; /* Defina o tamanho de fonte desejado */
     }
 
     .scrollToTopBtn {
@@ -418,6 +418,6 @@ footer p {
 
     .footer {
         margin-left: 0; /* Defina a margem esquerda desejada */
-        padding-right: 35%; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
+        padding-right: 55%; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
     }
 }
