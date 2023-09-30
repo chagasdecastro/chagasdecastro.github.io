@@ -34,7 +34,8 @@
     .profile img {
         max-width: 100%; /* Manter a largura máxima da imagem em relação ao contêiner */
         height: auto; /* Mantenha a altura automática para manter a proporção da imagem */
-        width: 150px; /* Defina a largura desejada para a imagem */
+        width: 80%; /* Defina a largura desejada para a imagem, por exemplo, 80% da largura do contêiner */
+        margin: 0 auto; /* Centralizar a imagem horizontalmente */
     }
 
     nav {
@@ -46,15 +47,20 @@
 
     section {
         width: 70%;
-        margin-left: 30%;
-        margin: 10px 0; /* Você pode ajustar essa margem conforme necessário */
-        padding: 10px;
+        margin-left: 25%;
+        margin-right: 5%;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    section img {
+        max-width: 100%; /* Reduz a largura da imagem para caber na largura da section */
+        height: auto; /* Mantém a proporção da imagem */
     }
 
     .card {
         margin-left: 25%;
         width: 70%;
-        max-width: none; /* Remova a largura máxima */
         height: auto;
     }
 

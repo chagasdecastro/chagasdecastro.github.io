@@ -97,7 +97,7 @@ nav a:hover {
     background-color: #3c2e3d;
 }
 
-a {
+nav a {
     scroll-behavior: smooth;
 }
 
