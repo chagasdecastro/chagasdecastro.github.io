@@ -17,20 +17,24 @@
         padding: 0;
     }
 
+    header h1 {
+        font-size: 4vw; /* Tamanho de fonte responsivo */
+        /* ... outros estilos ... */
+    }
+
     h5 {
         font-size: 13px;
     }
 
     .typing-text {
-        width: 70%;
-        margin-right: 5%;
         margin-left: 25%;
         font-size: 14px;
     }
 
     .profile img {
-        max-width: 80%; /* Ajuste o tamanho máximo da imagem, por exemplo, para 80% da largura da tela */
+        max-width: 100%; /* Manter a largura máxima da imagem em relação ao contêiner */
         height: auto; /* Mantenha a altura automática para manter a proporção da imagem */
+        width: 150px; /* Defina a largura desejada para a imagem */
     }
 
     nav {
