@@ -364,7 +364,6 @@ footer p {
     }
 
     section {
-        width: 70%;
         margin-left: 0; /* Redefina a margem esquerda para 0 para evitar sobreposição */
         margin-right: 0; /* Redefina a margem direita para 0 */
         padding: 20px;
