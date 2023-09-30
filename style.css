@@ -427,7 +427,15 @@ footer p {
         width: auto;
     }
 
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
     footer p {
-        padding-left: 40px; /* Ajuste o espaçamento à esquerda conforme necessário */
+        padding-right: 30px; /* Ajuste o espaçamento à esquerda conforme necessário */
     }    
 }
