@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, #918b92, transparent);
+    background: linear-gradient(to bottom, #9b959c, transparent);
     color: #3d1d3d;
     padding: 40px;
     height: 350px;
@@ -35,7 +35,6 @@ header p {
     text-align: center;
 }
 
-/* Animação de digitação */
 @keyframes typing {
     0% {
         width: 0;
@@ -45,7 +44,6 @@ header p {
     }
 }
 
-/* Aplicar a animação e torná-la constante e centralizada */
 .typing-text {
     font-size: 24px;
     font-weight: bold;
@@ -60,7 +58,6 @@ header p {
 }
 
 nav {
-    /* Seu estilo existente para a barra de navegação */
     background-color: #716075;
     color: #fff;
     width: 190px;
@@ -70,7 +67,7 @@ nav {
     z-index: 2;
     box-shadow: 6px 0 6px rgba(0, 0, 0, 0.2);
     padding: 15px;
-    height: calc(100% - 0px); /* Ajuste a altura - deve ser igual à altura do .push */
+    height: calc(100% - 0px);
 }
 
 nav ul {
@@ -106,18 +103,15 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
 }
 
-/* Estilo padrão dos projetos */
 .card {
-    /* ... (seu estilo atual) */
-    transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para a sombra */
+    transition: box-shadow 0.3s ease;
 }
 
-/* Adiciona uma sombra quando o mouse passa sobre os projetos */
 .card:hover {
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1); /* Adicione a sombra desejada */
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 section {
@@ -133,6 +127,7 @@ section {
 
 section:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 h6 {
@@ -154,7 +149,7 @@ h6 {
 }
 
 .icon-container .icon:hover {
-    transform: scale(1.2); /* Aumenta o tamanho dos ícones em 20% ao passar o mouse */
+    transform: scale(1.2);
 }
 
 #contato {
@@ -208,7 +203,6 @@ footer p {
     outline: none;
   }
 
-/* 6 */
 .btn-6 {
     background: rgb(226, 222, 224);
     background: radial-gradient(circle, rgb(226, 222, 224) 0%, rgb(113, 96, 117) 100%);
