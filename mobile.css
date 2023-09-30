@@ -7,6 +7,7 @@
     }
 
     header {
+        width: 70%;
         margin-left: 25%;
     }
 
@@ -16,9 +17,20 @@
         padding: 0;
     }
 
+    h5 {
+        font-size: 13px;
+    }
+
     .typing-text {
+        width: 70%;
+        margin-right: 5%;
         margin-left: 25%;
         font-size: 14px;
+    }
+
+    .profile img {
+        max-width: 80%; /* Ajuste o tamanho máximo da imagem, por exemplo, para 80% da largura da tela */
+        height: auto; /* Mantenha a altura automática para manter a proporção da imagem */
     }
 
     nav {
@@ -29,7 +41,7 @@
     }
 
     section {
-        width: 100%;
+        width: 70%;
         margin-left: 30%;
         margin: 10px 0; /* Você pode ajustar essa margem conforme necessário */
         padding: 10px;
@@ -37,19 +49,19 @@
 
     .card {
         margin-left: 25%;
-        width: 100%;
+        width: 70%;
         max-width: none; /* Remova a largura máxima */
         height: auto;
     }
 
     /* Certifique-se de que cada card ocupe uma linha inteira */
     .col-md-3 {
-        width: 100%; /* Defina a largura para 100% para uma única coluna por linha */
+        width: 70%;
         margin-bottom: 15px; /* Adicione um espaçamento entre os cards */
     }
 
     .custom-btn {
-        width: auto; /* Defina a largura automática para que se ajustem ao conteúdo */
+        width: 70%;
         padding: 5px 15px; /* Reduza o preenchimento para torná-los menores */
         font-size: 12px; /* Reduza o tamanho da fonte */
     }
