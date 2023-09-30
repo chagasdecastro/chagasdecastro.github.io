@@ -389,7 +389,7 @@ footer p {
         padding: 10px;
         overflow-y: auto;
         height: 100vh;
-        bottom: 0 !important;
+        bottom: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -464,15 +464,36 @@ footer p {
     }
     
     footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
     }
-    
-    footer p {
-        font-weight: bold; /* Adiciona negrito ao texto do footer */
-    }      
+
+    /* Estilo para o texto à esquerda do footer */
+    .footer-left {
+        flex-grow: 1;
+        font-size: 11px;
+        margin-right: 10px;
+    }
+
+    /* Estilo para o texto à direita do footer */
+    .footer-right {
+        font-size: 11px;
+        line-height: 1.2;
+        text-align: right;
+    }
+
+    /* Estilize as quebras de linha <br> conforme necessário */
+    .footer-right br {
+        display: none;
+        margin-bottom: 5px;
+    }
+
+    /* Estilize os links ou URLs na seção direita do footer, se necessário */
+    .footer-right a {
+        color: #ccc;
+        text-decoration: none;
+    }   
 }
