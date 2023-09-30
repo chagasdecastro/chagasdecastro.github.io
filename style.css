@@ -333,7 +333,7 @@ footer p {
     header p {
         font-size: 12px;
         position: absolute;
-        padding: 0;
+        margin-right: 5%;
     }
 
     h1 {
@@ -350,7 +350,7 @@ footer p {
     }
 
     .typing-text {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     nav {
@@ -398,13 +398,13 @@ footer p {
     .custom-btn {
         align-items: center;
         width: auto; /* Permita que a largura dos botões se ajuste ao tamanho do conteúdo */
-        padding: 5% 10%; /* Use porcentagens para o padding (cima/baixo e esquerda/direita) */
+        padding: 5% 5%; /* Use porcentagens para o padding (cima/baixo e esquerda/direita) */
         font-size: 12px; /* Reduza o tamanho da fonte */
         line-height: 1;
     }
 
     .footer {
         margin-left: 0; /* Defina a margem esquerda desejada */
-        padding-left: 10px; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
+        padding-left: 7px; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
     }
 }
