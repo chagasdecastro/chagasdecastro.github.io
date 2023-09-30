@@ -382,26 +382,32 @@ footer p {
         border-radius: 50%; /* Para torná-la redonda, se desejar */
     }
 
+    .icon-container {
+        display: flex; /* Use flexbox para centralizar verticalmente */
+        align-items: center; /* Centralize verticalmente os ícones */
+        justify-content: center; /* Centralize horizontalmente os ícones */
+    }
+    
     .icon {
-        max-width: 50%; /* Defina o tamanho máximo desejado, como 50% */
+        max-width: 100%; /* Mantenha a proporção da imagem */
         height: auto; /* Mantenha a proporção da imagem */
-    }    
+    }       
     
     .card {
         margin-left: 10%; /* Defina uma margem esquerda menor */
         margin-right: 10%; /* Defina uma margem direita menor */
         width: 80%; /* Ajuste a largura dos cards conforme necessário */
-        height: 70%;
+        height: 90%;
     }
 
     .card-body {
-        padding: 8px; /* Ajuste o espaçamento interno conforme necessário */
+        padding: 9px; /* Ajuste o espaçamento interno conforme necessário */
     }
 
     /* Certifique-se de que cada card ocupe uma linha inteira */
     .col-md-3 {
         width: 100%; /* Defina a largura para 100% para um card por linha */
-        margin-bottom: 15px; /* Adicione um espaçamento entre os cards */
+        margin-bottom: 10px; /* Adicione um espaçamento entre os cards */
     }
 
     .custom-btn {
@@ -421,8 +427,7 @@ footer p {
         width: auto;
     }
 
-    .footer {
-        margin-left: 0; /* Defina a margem esquerda desejada */
-        padding-right: 80%; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
-    }
+    footer p {
+        padding-left: 40px; /* Ajuste o espaçamento à esquerda conforme necessário */
+    }    
 }
