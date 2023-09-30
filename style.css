@@ -400,6 +400,9 @@ footer p {
         font-size: 10px;
     }
 
+    #meuBackground {
+        width: 100%;
+    }
     section {
         margin-left: 120px;
         margin-right: 20px;
@@ -466,9 +469,8 @@ footer p {
     footer {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 100% !important;
         justify-content: space-between;
-        align-items: center;
         padding: 5px 0;
     }
 
