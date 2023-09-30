@@ -327,11 +327,18 @@ footer p {
     header {
         width: 80%;
         margin-left: 20%;
+        position: relative;
     }
 
     header p {
         font-size: 12px;
+        position: absolute;
         padding: 0;
+    }
+
+    h1 {
+        position: absolute;
+        left: 0;
     }
 
     h5 {
@@ -343,7 +350,6 @@ footer p {
     }
 
     .typing-text {
-        margin-left: 25%;
         font-size: 4vw;
     }
 
@@ -366,9 +372,11 @@ footer p {
         height: auto; /* Mantém a proporção da imagem */
     }
 
-    .img-fluid {
-        max-width: 100%; /* Reduz a largura da imagem para caber na largura da section */
-        height: auto; /* Mantém a proporção da imagem */
+    .profile {
+        /* Aumente o tamanho da imagem de perfil */
+        width: 100px; /* Defina a largura desejada para a imagem de perfil */
+        height: 100px; /* Defina a altura desejada para a imagem de perfil */
+        border-radius: 50%; /* Para torná-la redonda, se desejar */
     }
     
     .card {
@@ -390,4 +398,3 @@ footer p {
         font-size: 12px; /* Reduza o tamanho da fonte */
     }
 }
-  
