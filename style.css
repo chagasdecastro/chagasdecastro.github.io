@@ -316,7 +316,7 @@ footer p {
     height: 100px; /* Ajuste a altura conforme necessário */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     body {
         min-height: auto;
         padding: 0;
@@ -324,8 +324,8 @@ footer p {
     }
 
     header {
-        width: 70%;
-        margin-left: 25%;
+        width: 80%;
+        margin-left: 20%;
     }
 
     header p {
@@ -338,6 +338,7 @@ footer p {
         width: auto; /* Defina a largura como automática para permitir que o texto se ajuste ao conteúdo */
         margin: 40px 0; /* Ajuste a margem superior e inferior para afastar o texto dos elementos vizinhos */
         padding: 0 20px; /* Adicione algum espaço acolchoado para afastar o texto das bordas do elemento */
+        margin-left: -20px; /* Empurre o conteúdo para a esquerda */
     }
 
     h5 {
@@ -368,7 +369,7 @@ footer p {
     }
 
     section {
-        margin-left: 0;
+        margin-left: 90px;
         margin-right: 20px; /* Adicione margem à direita das sections */
         padding: 20px;
     }
