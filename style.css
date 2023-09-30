@@ -350,7 +350,7 @@ footer p {
     body {
         min-height: auto;
         padding: 0;
-        font-size: 11px;
+        font-size: 0.6875em; /* 11px em relação a 16px (tamanho de fonte padrão) */
     }
 
     header {
@@ -358,13 +358,13 @@ footer p {
         margin-left: 20%;
         position: relative;
         height: auto;
-        padding: 10px 0; /* Adiciona espaço acima e abaixo do header */
+        padding: 0.625em 0; /* 10px em relação a 16px (tamanho de fonte padrão) */
     }
 
     header p {
-        font-size: 12px;
+        font-size: 0.75em; /* 12px em relação a 16px (tamanho de fonte padrão) */
         position: absolute;
-        margin-right: 5%;
+        margin-right: 0.3125em; /* 5px em relação a 16px (tamanho de fonte padrão) */
     }
 
     h1 {
@@ -373,40 +373,40 @@ footer p {
     }
 
     h5 {
-        font-size: 14px;
+        font-size: 0.875em; /* 14px em relação a 16px (tamanho de fonte padrão) */
     }
 
     h6 {
-        font-size: 13px;
+        font-size: 0.8125em; /* 13px em relação a 16px (tamanho de fonte padrão) */
     }
 
     .typing-text {
-        font-size: 3vw;
+        font-size: 3.125vw; /* 3.125% da largura da tela */
     }
 
     nav {
         width: 18%;
-        padding: 10px;
+        padding: 0.625em; /* 10px em relação a 16px (tamanho de fonte padrão) */
         overflow-y: auto;
         height: 100vh;
         bottom: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 10px;
+        font-size: 0.625em; /* 10px em relação a 16px (tamanho de fonte padrão) */
     }
 
     #meuNav {
-        font-size: 10px;
+        font-size: 0.625em; /* 10px em relação a 16px (tamanho de fonte padrão) */
     }
 
     #meuBackground {
         width: 100%;
     }
     section {
-        margin-left: 120px;
-        margin-right: 20px;
-        padding: 15px;
+        margin-left: 7.5em; /* 120px em relação a 16px (tamanho de fonte padrão) */
+        margin-right: 1.25em; /* 20px em relação a 16px (tamanho de fonte padrão) */
+        padding: 0.9375em; /* 15px em relação a 16px (tamanho de fonte padrão) */
     }
 
     section img {
@@ -415,8 +415,8 @@ footer p {
     }
 
     .profile {
-        width: 100px;
-        height: 100px;
+        width: 6.25em; /* 100px em relação a 16px (tamanho de fonte padrão) */
+        height: 6.25em; /* 100px em relação a 16px (tamanho de fonte padrão) */
         border-radius: 50%;
     }
 
@@ -432,38 +432,38 @@ footer p {
     }       
     
     .card {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 1.5625em; /* 10% em relação a 16px (tamanho de fonte padrão) */
+        margin-right: 1.5625em; /* 10% em relação a 16px (tamanho de fonte padrão) */
         width: 80%;
         height: auto;
     }
 
     .card-body {
-        padding: 9px;
+        padding: 0.5625em; /* 9px em relação a 16px (tamanho de fonte padrão) */
     }
 
     .col-md-3 {
         width: 100%;
-        margin-bottom: 10px; 
+        margin-bottom: 0.625em; /* 10px em relação a 16px (tamanho de fonte padrão) */
     }
 
     .scrollToTopBtn {
         align-items: center;
         max-width: fit-content;
-        padding-bottom: 5px;
+        padding-bottom: 0.3125em; /* 5px em relação a 16px (tamanho de fonte padrão) */
         border-radius: 50%;
     }
     
     .custom-btn {
         align-items: center;
         width: auto;
-        padding: 5% 5%;
-        font-size: 12px;
+        padding: 0.3125em 0.3125em; /* 5% em relação a 16px (tamanho de fonte padrão) */
+        font-size: 0.75em; /* 12px em relação a 16px (tamanho de fonte padrão) */
         line-height: 1;
     }
 
     ::placeholder {
-        font-size: 10px;
+        font-size: 0.625em; /* 10px em relação a 16px (tamanho de fonte padrão) */
     }
     
     footer {
@@ -471,18 +471,19 @@ footer p {
         flex-wrap: wrap;
         width: 100% !important;
         justify-content: space-between;
-        padding: 5px 0;
+        padding: 0.3125em 0;
     }
 
     .footer-left,
     .footer-right {
-        font-size: 8px;
+        font-size: 0.5em; /* 8px em relação a 16px (tamanho de fonte padrão) */
         line-height: 1.2;
         font-weight: bold;
     }
 
     .footer-right br {
         display: none;
-        margin-bottom: 5px;
-    }  
+        margin-bottom: 0.3125em; /* 5px em relação a 16px (tamanho de fonte padrão) */
+    }
 }
+
