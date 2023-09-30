@@ -410,6 +410,13 @@ footer p {
         margin-bottom: 10px; /* Adicione um espaçamento entre os cards */
     }
 
+    .scrollToTopBtn {
+        align-items: center;
+        max-width: fit-content;
+        padding-bottom: 5px;
+        border-radius: 50%;
+    }
+    
     .custom-btn {
         align-items: center;
         width: auto; /* Permita que a largura dos botões se ajuste ao tamanho do conteúdo */
@@ -420,13 +427,6 @@ footer p {
 
     ::placeholder {
         font-size: 10px; /* Defina o tamanho de fonte desejado */
-    }
-
-    .scrollToTopBtn {
-        align-items: center;
-        max-width: fit-content;
-        padding-bottom: 5px;
-        border-radius: 50%;
     }
     
     footer {
