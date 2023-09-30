@@ -389,6 +389,10 @@ footer p {
         height: auto;
     }
 
+    .card-body {
+        padding: 10px; /* Ajuste o espaçamento interno conforme necessário */
+    }
+
     /* Certifique-se de que cada card ocupe uma linha inteira */
     .col-md-3 {
         width: 100%; /* Defina a largura para 100% para um card por linha */
@@ -403,8 +407,13 @@ footer p {
         line-height: 1;
     }
 
+    .scrollToTopBtn {
+        align-items: center;
+        width: auto;
+    }
+
     .footer {
         margin-left: 0; /* Defina a margem esquerda desejada */
-        padding-left: 7px; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
+        padding-right: 10%; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
     }
 }
