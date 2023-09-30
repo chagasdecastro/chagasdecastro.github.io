@@ -175,8 +175,8 @@ footer p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 40px;
     bottom: 0;
+    padding: 15px;
     position: absolute;
     width: 100%;
 }
