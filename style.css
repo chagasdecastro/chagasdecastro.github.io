@@ -335,13 +335,13 @@ footer p {
 
     header h1 {
         font-size: 4vw; /* Tamanho de fonte responsivo */
-        width: 80%; /* Defina uma largura menor para o elemento h1 */
-        margin: 0 auto; /* Centralize o elemento horizontalmente */
-        padding-right: 10px;
+        width: auto; /* Defina a largura como automática para permitir que o texto se ajuste ao conteúdo */
+        margin: 40px 0; /* Ajuste a margem superior e inferior para afastar o texto dos elementos vizinhos */
+        padding: 0 20px; /* Adicione algum espaço acolchoado para afastar o texto das bordas do elemento */
     }
 
     h5 {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .typing-text {
@@ -350,22 +350,26 @@ footer p {
     }
 
     .profile img {
-        max-width: 90%; /* Aumente a largura máxima da imagem para 90% */
+        max-width: 100%; /* Mantenha a largura máxima da imagem em relação ao contêiner */
         height: auto; /* Mantenha a altura automática para manter a proporção da imagem */
-        width: auto; /* Redefina a largura para automática */
+        width: 100%; /* Defina a largura desejada para a imagem, por exemplo, 100% da largura do contêiner */
         margin: 0 auto; /* Centralizar a imagem horizontalmente */
     }
 
     nav {
         width: 25%;
         padding: 15px;
-        height: 100%;
+        height: calc(100% - 200px); /* Reserva mais espaço para as sections */
         overflow-y: auto;
     }
 
+    nav a {
+        padding: 10%;
+    }
+
     section {
-        margin-left: 0; /* Redefina a margem esquerda para 0 para evitar sobreposição */
-        margin-right: 0; /* Redefina a margem direita para 0 */
+        margin-left: 0;
+        margin-right: 20px; /* Adicione margem à direita das sections */
         padding: 20px;
     }
 
