@@ -346,7 +346,7 @@ footer p {
     height: 100px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 770px) {
     body {
         min-height: auto;
         padding: 0;
@@ -357,6 +357,8 @@ footer p {
         width: 80%;
         margin-left: 20%;
         position: relative;
+        height: auto;
+        padding: 10px 0; /* Adiciona espaço acima e abaixo do header */
     }
 
     header p {
@@ -393,6 +395,10 @@ footer p {
         align-items: center;
     }
 
+    #meuNav {
+        font-size: 12px;
+    }
+
     section {
         margin-left: 120px;
         margin-right: 20px;
@@ -425,7 +431,7 @@ footer p {
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
-        height: 90%;
+        height: auto;
     }
 
     .card-body {
@@ -462,10 +468,10 @@ footer p {
         left: 0;
         width: 100%;
         text-align: center;
+        padding: 10px;
     }
     
     footer p {
-        margin-left: 90px;
-        margin-right: 70px;
+        font-weight: bold; /* Adiciona negrito ao texto do footer */
     }      
 }
