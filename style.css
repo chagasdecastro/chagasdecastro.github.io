@@ -367,7 +367,7 @@ footer p {
     section {
         margin-left: 120px;
         margin-right: 20px; /* Adicione margem à direita das sections */
-        padding: 10px;
+        padding: 15px;
     }
 
     section img {
@@ -381,16 +381,21 @@ footer p {
         height: 100px; /* Defina a altura desejada para a imagem de perfil */
         border-radius: 50%; /* Para torná-la redonda, se desejar */
     }
+
+    .icon {
+        max-width: 50%; /* Defina o tamanho máximo desejado, como 50% */
+        height: auto; /* Mantenha a proporção da imagem */
+    }    
     
     .card {
         margin-left: 10%; /* Defina uma margem esquerda menor */
         margin-right: 10%; /* Defina uma margem direita menor */
         width: 80%; /* Ajuste a largura dos cards conforme necessário */
-        height: 50%;
+        height: 70%;
     }
 
     .card-body {
-        padding: 6px; /* Ajuste o espaçamento interno conforme necessário */
+        padding: 8px; /* Ajuste o espaçamento interno conforme necessário */
     }
 
     /* Certifique-se de que cada card ocupe uma linha inteira */
@@ -418,6 +423,6 @@ footer p {
 
     .footer {
         margin-left: 0; /* Defina a margem esquerda desejada */
-        padding-right: 55%; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
+        padding-right: 80%; /* Adicione preenchimento à esquerda para afastar o conteúdo da borda esquerda */
     }
 }
