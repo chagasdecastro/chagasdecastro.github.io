@@ -466,34 +466,21 @@ footer p {
     footer {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
-    /* Estilo para o texto à esquerda do footer */
-    .footer-left {
-        flex-grow: 1;
-        font-size: 11px;
-        margin-right: 10px;
-    }
-
-    /* Estilo para o texto à direita do footer */
+    .footer-left,
     .footer-right {
-        font-size: 11px;
+        font-size: 8px;
         line-height: 1.2;
-        text-align: right;
+        font-weight: bold;
     }
 
-    /* Estilize as quebras de linha <br> conforme necessário */
     .footer-right br {
         display: none;
         margin-bottom: 5px;
-    }
-
-    /* Estilize os links ou URLs na seção direita do footer, se necessário */
-    .footer-right a {
-        color: #ccc;
-        text-decoration: none;
-    }   
+    }  
 }
