@@ -126,7 +126,6 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     margin-left: 300px;
-    margin-right: 70px;
     transition: transform 0.5s ease; /* Adicione uma transição suave */
 }
 
@@ -338,7 +337,7 @@ footer p {
         width: auto; /* Defina a largura como automática para permitir que o texto se ajuste ao conteúdo */
         margin: 40px 0; /* Ajuste a margem superior e inferior para afastar o texto dos elementos vizinhos */
         padding: 0 20px; /* Adicione algum espaço acolchoado para afastar o texto das bordas do elemento */
-        margin-left: -50px; /* Empurre o conteúdo para a esquerda */
+        margin-left: -80px; /* Empurre o conteúdo para a esquerda */
     }
 
     h5 {
@@ -365,7 +364,7 @@ footer p {
     section {
         margin-left: 120px;
         margin-right: 20px; /* Adicione margem à direita das sections */
-        padding: 20px;
+        padding: 10px;
     }
 
     section img {
@@ -373,7 +372,7 @@ footer p {
         height: auto; /* Mantém a proporção da imagem */
     }
 
-    .profile img {
+    .img-fluid {
         max-width: 80%; /* Aumente o valor para aumentar a largura máxima da imagem */
         max-height: 80%; /* Aumente o valor para aumentar a altura máxima da imagem */
         height: auto;
