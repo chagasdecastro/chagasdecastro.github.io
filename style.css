@@ -338,11 +338,15 @@ footer p {
         width: auto; /* Defina a largura como automática para permitir que o texto se ajuste ao conteúdo */
         margin: 40px 0; /* Ajuste a margem superior e inferior para afastar o texto dos elementos vizinhos */
         padding: 0 20px; /* Adicione algum espaço acolchoado para afastar o texto das bordas do elemento */
-        margin-left: -40px; /* Empurre o conteúdo para a esquerda */
+        margin-left: -50px; /* Empurre o conteúdo para a esquerda */
     }
 
     h5 {
         font-size: 14px;
+    }
+
+    h6 {
+        font-size: 13px;
     }
 
     .typing-text {
@@ -353,22 +357,13 @@ footer p {
     nav {
         width: 25%;
         padding: 15px;
-        height: calc(100% - 200px); /* Reserva mais espaço para as sections */
         overflow-y: auto;
-    }
-
-    nav ul {
-        list-style: none;
-        padding: 0;
-    }
-    
-    nav ul li {
-        padding: 8px;
-        text-align: center;
+        height: 100vh; /* Altura igual à viewport */
+        bottom: 0; /* Encosta no chão */
     }
 
     section {
-        margin-left: 110px;
+        margin-left: 120px;
         margin-right: 20px; /* Adicione margem à direita das sections */
         padding: 20px;
     }
@@ -378,6 +373,15 @@ footer p {
         height: auto; /* Mantém a proporção da imagem */
     }
 
+    .profile img {
+        max-width: 80%; /* Aumente o valor para aumentar a largura máxima da imagem */
+        max-height: 80%; /* Aumente o valor para aumentar a altura máxima da imagem */
+        height: auto;
+        border-radius: 70%;
+        border: none;
+        padding: 25px;
+    }
+    
     .card {
         margin-left: 15%;
         width: 70%;
@@ -391,6 +395,7 @@ footer p {
     }
 
     .custom-btn {
+        align-items: center;
         width: 70%;
         padding: 5px 15px; /* Reduza o preenchimento para torná-los menores */
         font-size: 12px; /* Reduza o tamanho da fonte */
