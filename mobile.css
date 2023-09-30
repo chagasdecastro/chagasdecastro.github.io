@@ -13,13 +13,14 @@
 
     header p {
         font-size: 12px;
-        margin-left: 25%;
         padding: 0;
     }
 
     header h1 {
         font-size: 4vw; /* Tamanho de fonte responsivo */
-        /* ... outros estilos ... */
+        width: 80%; /* Defina uma largura menor para o elemento h1 */
+        margin: 0 auto; /* Centralize o elemento horizontalmente */
+        padding-right: 10px;
     }
 
     h5 {
@@ -32,9 +33,9 @@
     }
 
     .profile img {
-        max-width: 100%; /* Manter a largura máxima da imagem em relação ao contêiner */
+        max-width: 90%; /* Aumente a largura máxima da imagem para 90% */
         height: auto; /* Mantenha a altura automática para manter a proporção da imagem */
-        width: 80%; /* Defina a largura desejada para a imagem, por exemplo, 80% da largura do contêiner */
+        width: auto; /* Redefina a largura para automática */
         margin: 0 auto; /* Centralizar a imagem horizontalmente */
     }
 
@@ -47,9 +48,8 @@
 
     section {
         width: 70%;
-        margin-left: 25%;
-        margin-right: 5%;
-        margin: 10px 0;
+        margin-left: 0; /* Redefina a margem esquerda para 0 para evitar sobreposição */
+        margin-right: 0; /* Redefina a margem direita para 0 */
         padding: 20px;
     }
 
@@ -66,7 +66,7 @@
 
     /* Certifique-se de que cada card ocupe uma linha inteira */
     .col-md-3 {
-        width: 70%;
+        width: 100%; /* Defina a largura para 100% para um card por linha */
         margin-bottom: 15px; /* Adicione um espaçamento entre os cards */
     }
 
