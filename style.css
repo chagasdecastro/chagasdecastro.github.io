@@ -432,10 +432,10 @@ footer p {
         bottom: 0;
         left: 0;
         width: 100%;
-        text-align: center;
     }
 
     footer p {
+        padding-left: 80px;
         padding-right: 90px; /* Ajuste o espaçamento à esquerda conforme necessário */
     }    
 }
