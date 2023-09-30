@@ -425,10 +425,10 @@ footer p {
     .scrollToTopBtn {
         align-items: center;
         width: auto;
-        margin: 10px; /* Ajuste as margens conforme necessário para diminuir as bordas */
-        padding: 5px 10px; /* Ajuste o padding conforme necessário para diminuir as bordas */
-    }    
-
+        margin: 10px !important;
+        padding: 5px 10px !important;
+    }
+    
     footer {
         position: fixed;
         bottom: 0;
@@ -438,7 +438,7 @@ footer p {
     }
     
     footer p {
-        margin-left: 80px; /* Ajuste a margem esquerda conforme necessário */
-        margin-right: 80px; /* Ajuste a margem direita conforme necessário */
+        margin-left: 90px; /* Ajuste a margem esquerda conforme necessário */
+        margin-right: 70px; /* Ajuste a margem direita conforme necessário */
     }      
 }
