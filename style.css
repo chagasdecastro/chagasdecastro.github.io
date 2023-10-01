@@ -370,7 +370,7 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 70vh; /* Defina uma altura máxima desejada */
+        max-height: 25px; /* Defina a altura máxima desejada */
         z-index: 100;
     }
 
@@ -431,7 +431,7 @@ footer p {
 
     footer {
         width: 100%;
-        text-align: center;
+        text-align: left;
         padding: 5px; /* Espaçamento interno */
     }
     
