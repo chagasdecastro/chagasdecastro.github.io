@@ -370,7 +370,7 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 85px; /* Defina a altura máxima desejada */
+        max-height: 95px; /* Defina a altura máxima desejada */
         z-index: 100;
         padding-right: 15px;
     }
@@ -396,7 +396,7 @@ footer p {
     }
 
     .typing-text {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .profile-img {
@@ -408,7 +408,7 @@ footer p {
         width: 100%; /* Definir a largura como 100% para ocupar toda a largura da tela */
         margin: 0; /* Remover margem */
         padding: 0; /* Remover preenchimento */
-        z-index: -1
+        z-index: -1;
     }
 
     main {
@@ -422,29 +422,34 @@ footer p {
     }
 
     header p {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     section {
         margin: 0 15px;
-        font-size: 10px;
-    }
-
-    section h5 {
         font-size: 11px;
     }
 
+    section h5 {
+        font-size: 12px;
+    }
+
     section p {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .card-img-top {
-        max-width: 100%;
-        height: auto;
+        max-width: 80%;
+        height: 80%;
     }
 
     .col-md-3 {
+        padding: 20px;
         margin-bottom: 20px; /* Defina o espaçamento desejado entre os cards */
+    }
+
+    #scrollToTopBtn {
+        margin-bottom: 50px; /* Adicione a quantidade de espaço desejada na margem inferior */
     }
 
     footer {
