@@ -360,6 +360,9 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    body {
+        overflow-y: scroll; /* Adicione isso para permitir a rolagem vertical */
+    }
         /* Estilos para o menu no topo */
     #meuNav {
         position: fixed;
@@ -407,8 +410,13 @@ footer p {
         width: 100%; /* Ocupar toda a largura da tela */
     }
 
+    header {
+        margin: 0; /* Remover margem */
+    }
+
     section {
         margin: 0; /* Remover margem */
+        font-size: 9px;
     }
 
     footer {
