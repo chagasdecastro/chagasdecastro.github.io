@@ -363,14 +363,14 @@ footer p {
     body {
         overflow-y: scroll; /* Adicione isso para permitir a rolagem vertical */
     }
-        /* Estilos para o menu no topo */
+    
     #meuNav {
         position: fixed;
         width: 100%;
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 12vh;
+        max-height: calc(100vh - 12vh); /* Definir max-height com base na altura da tela e da barra de navegação */
         overflow-y: auto;
         z-index: 100;
     }
@@ -411,8 +411,7 @@ footer p {
     }
 
     header {
-        margin-top: 10px;
-        margin: 0; /* Remover margem */
+        margin: 40px 0 0;
     }
 
     header h1 {
@@ -424,21 +423,20 @@ footer p {
     }
 
     section {
-        margin: 2px; /* Remover margem */
+        margin: 0 10px;
         font-size: 10px;
     }
 
     footer {
         width: 100%;
-        text-align: center;
-        padding: 10px 0;
+        text-align: left;
         white-space: nowrap; /* Evita que o conteúdo do footer quebre para a próxima linha */
     }
 
     .footer-left p,
     .footer-right p {
         /* Tamanho de fonte menor para os textos dentro do footer */
-        font-size: 6px; /* Experimente diferentes valores para ajustar o tamanho desejado */
+        font-size: 8px; /* Experimente diferentes valores para ajustar o tamanho desejado */
     }
     
     .footer-bg {
