@@ -363,17 +363,20 @@ footer p {
     /* Estilos para o menu no topo */
     #meuNav {
         position: fixed;
+        width: 100vw;
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #333;
+        background-color: #716075;
+        max-height: 15vh; /* Altura máxima de 80% da altura da tela */
+        overflow-y: auto;
         z-index: 100;
     }
 
     #meuNav ul {
         display: flex;
         justify-content: space-between;
-        padding: 10px;
+        padding: 6px;
     }
 
     #meuNav ul li {
@@ -383,10 +386,14 @@ footer p {
     #meuNav ul li a {
         color: #fff;
         text-decoration: none;
+        font-size: 11px;
     }
 
-    /* Ocultar a imagem do perfil em telas pequenas */
     .profile-img {
+        display: none;
+    }
+
+    #scrollToTopBtn {
         display: none;
     }
 }
