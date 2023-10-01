@@ -370,8 +370,7 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: calc(100vh - 12vh); /* Definir max-height com base na altura da tela e da barra de navegação */
-        overflow-y: auto;
+        max-height: 100vh; /* Defina uma altura máxima desejada */
         z-index: 100;
     }
 
@@ -411,7 +410,7 @@ footer p {
     }
 
     header {
-        margin: 40px 0 0;
+        margin: 20px 0 0;
     }
 
     header h1 {
@@ -429,7 +428,7 @@ footer p {
 
     footer {
         width: 100%;
-        text-align: left;
+        text-align: center;
         white-space: nowrap; /* Evita que o conteúdo do footer quebre para a próxima linha */
     }
 
