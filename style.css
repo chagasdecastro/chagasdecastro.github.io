@@ -397,7 +397,7 @@ footer p {
     }
 
     #meuBackground {
-        position: fixed;
+        overflow-y: scroll; /* Adicione isso para permitir a rolagem vertical */
         width: 100%; /* Definir a largura como 100% para ocupar toda a largura da tela */
         margin: 0; /* Remover margem */
         padding: 0; /* Remover preenchimento */
@@ -414,9 +414,17 @@ footer p {
         margin: 0; /* Remover margem */
     }
 
+    header h1 {
+        font-size: 12;
+    }
+
+    header p {
+        font-size: 11;
+    }
+
     section {
-        margin: 0; /* Remover margem */
-        font-size: 9px;
+        margin: 2px; /* Remover margem */
+        font-size: 10px;
     }
 
     footer {
