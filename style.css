@@ -402,6 +402,10 @@ footer p {
         display: none;
     }
 
+    .svg-container {
+        margin-bottom: 30px; /* Adicione a quantidade de espaçamento desejada aqui */
+    }
+
     #meuBackground {
         overflow-y: scroll; /* Adicione isso para permitir a rolagem vertical */
         width: 100%; /* Definir a largura como 100% para ocupar toda a largura da tela */
@@ -442,6 +446,7 @@ footer p {
     }
 
     .card-img-top {
+        align-items: center;
         max-width: 80%;
         height: 80%;
     }
@@ -452,7 +457,7 @@ footer p {
     }
 
     #scrollToTopBtn {
-        margin-bottom: 80px; /* Adicione a quantidade de espaço desejada na margem inferior */
+        margin-bottom: 100px; /* Adicione a quantidade de espaço desejada na margem inferior */
     }
 
     footer {
