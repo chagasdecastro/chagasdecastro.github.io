@@ -112,6 +112,10 @@ nav a {
     scroll-behavior: smooth;
 }
 
+.svg-container {
+    margin-bottom: 40px; /* Adicione a quantidade de espaçamento desejada aqui */
+}
+
 .card-body {
     height: 250px;
     display: flex;
@@ -430,11 +434,10 @@ footer p {
 
     section {
         margin: 0 15px;
-        font-size: 11px;
     }
 
     section h5 {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     section h6 {
@@ -442,34 +445,35 @@ footer p {
     }
 
     section p {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .card-img-top {
-        align-items: center;
+        display: block; /* Torna a imagem um bloco para centralizar */
+        margin: 0 auto; /* Define margem automática para centralizar horizontalmente */
         max-width: 80%;
         height: 80%;
     }
 
     .col-md-3 {
         padding: 20px;
-        margin-bottom: 20px; /* Defina o espaçamento desejado entre os cards */
+        margin-bottom: 20px; 
     }
 
     #scrollToTopBtn {
-        margin-bottom: 100px; /* Adicione a quantidade de espaço desejada na margem inferior */
+        margin-bottom: 120px; 
     }
 
     footer {
         width: 100%;
         text-align: left;
-        margin: 0; /* Remover margem */
-        padding: 5px; /* Espaçamento interno */
+        margin: 0; 
+        padding: 5px;
     }
     
     .footer-left p,
     .footer-right p {
-        font-size: 8px; /* Experimente diferentes valores para ajustar o tamanho desejado */
+        font-size: 8px; 
     }
     
     .footer-bg {
@@ -477,6 +481,6 @@ footer p {
     }
     
     .footer-right {
-        margin-top: 5px;
+        margin-right: 10px;
     }
 }
