@@ -372,7 +372,6 @@ footer p {
         background-color: #716075;
         max-height: 95px; /* Defina a altura máxima desejada */
         z-index: 100;
-        padding-right: 15px;
     }
 
     #meuNav ul {
@@ -392,11 +391,11 @@ footer p {
     #meuNav ul li a {
         color: #fff;
         text-decoration: none;
-        font-size: 9px;
+        font-size: 7px;
     }
 
     .typing-text {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .profile-img {
@@ -422,7 +421,7 @@ footer p {
     }
 
     header p {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     section {
@@ -432,6 +431,10 @@ footer p {
 
     section h5 {
         font-size: 12px;
+    }
+
+    section h6 {
+        font-size: 12;
     }
 
     section p {
@@ -449,7 +452,7 @@ footer p {
     }
 
     #scrollToTopBtn {
-        margin-bottom: 50px; /* Adicione a quantidade de espaço desejada na margem inferior */
+        margin-bottom: 80px; /* Adicione a quantidade de espaço desejada na margem inferior */
     }
 
     footer {
@@ -471,5 +474,4 @@ footer p {
     .footer-right {
         margin-top: 5px;
     }
-   
 }
