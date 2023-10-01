@@ -370,8 +370,9 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 70px; /* Defina a altura máxima desejada */
+        max-height: 85px; /* Defina a altura máxima desejada */
         z-index: 100;
+        padding-right: 15px;
     }
 
     #meuNav ul {
@@ -395,7 +396,7 @@ footer p {
     }
 
     .typing-text {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .profile-img {
@@ -421,7 +422,7 @@ footer p {
     }
 
     header p {
-        font-size: 10;
+        font-size: 10px;
     }
 
     section {
@@ -430,11 +431,20 @@ footer p {
     }
 
     section h5 {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     section p {
-        font-size: 9px;
+        font-size: 10px;
+    }
+
+    .card-img-top {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .col-md-3 {
+        margin-bottom: 20px; /* Defina o espaçamento desejado entre os cards */
     }
 
     footer {
