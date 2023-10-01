@@ -352,33 +352,41 @@ footer p {
     height: 100px;
 }
 
+@media (min-width: 769px) {
+    /* Exibir a imagem do perfil */
+    .profile-img {
+        display: block;
+    }
+}
+
 @media (max-width: 768px) {
     /* Estilos para o menu no topo */
     #meuNav {
-        position: fixed; /* Fixar o menu no topo */
+        position: fixed;
         top: 0;
         left: 0;
-        width: 100%; /* Ocupar a largura total */
-        background-color: #333; /* Cor de fundo do menu no topo */
-        z-index: 1000; /* Certifique-se de que o menu está na parte superior */
+        width: 100%;
+        background-color: #333;
+        z-index: 100;
     }
-       
+
     #meuNav ul {
         display: flex;
-        flex-direction: column; /* Coluna para empilhar os itens do menu */
-        align-items: center; /* Centralizar os itens horizontalmente */
+        justify-content: space-between;
+        padding: 10px;
     }
-        
+
     #meuNav ul li {
-        margin: 5px 0; /* Espaçamento entre os itens */
+        list-style: none;
     }
-        
+
     #meuNav ul li a {
-        color: #fff; /* Cor do texto do menu no topo */
+        color: #fff;
+        text-decoration: none;
     }
-    
-    /* Esconder a foto */
-    #meuNav .profile {
+
+    /* Ocultar a imagem do perfil em telas pequenas */
+    .profile-img {
         display: none;
     }
 }
