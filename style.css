@@ -360,6 +360,10 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    body {
+        margin: 0;
+        width: 100vh;
+    }
     /* Estilos para o menu no topo */
     #meuNav {
         position: fixed;
@@ -367,7 +371,7 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 10vh;
+        max-height: 12vh;
         overflow-y: auto;
         z-index: 100;
     }
@@ -376,7 +380,7 @@ footer p {
         display: flex;
         justify-content: space-between;
         padding: 0;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
     }
 
     #meuNav ul li {
@@ -396,10 +400,10 @@ footer p {
     #meuBackground {
         padding: 0; /* Remover qualquer padding */
         margin: 0; /* Remover qualquer margem */
-        width: 100%; /* Ocupar toda a largura da tela */
+        width: 100vw; /* Ocupar toda a largura da tela */
     }
 
-    .scrollToTopBtn {
-        display: none;
+    footer {
+        width: 100vw;
     }
 }
