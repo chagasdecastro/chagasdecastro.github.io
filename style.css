@@ -353,9 +353,18 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    nav {
-        flex-direction: column; /* Altera a direção do flex para empilhar verticalmente */
-        align-items: flex-start; /* Alinha o conteúdo à esquerda */
-        padding: 10px; /* Reduz o preenchimento */
+    /* Ocultar logotipo */
+    .meu-nav-custom .logo {
+        display: none;
+    }
+
+    /* Estilos para itens do menu */
+    .meu-nav-custom ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .meu-nav-custom li {
+        margin-bottom: 10px;
     }
 }
