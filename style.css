@@ -376,7 +376,7 @@ footer p {
 
     #meuNav ul {
         display: flex;
-        flex-direction: column; /* Empilhar os itens verticalmente */
+        justify-content: space-between;
         align-items: center; /* Centralizar os itens horizontalmente */
         padding: 0;
         margin: 0;
@@ -432,13 +432,11 @@ footer p {
     footer {
         width: 100%;
         text-align: center;
-        white-space: nowrap; /* Evita que o conteúdo do footer quebre para a próxima linha */
         padding: 5px; /* Espaçamento interno */
     }
-
+    
     .footer-left p,
     .footer-right p {
-        /* Tamanho de fonte menor para os textos dentro do footer */
         font-size: 8px; /* Experimente diferentes valores para ajustar o tamanho desejado */
     }
     
@@ -449,4 +447,5 @@ footer p {
     .footer-right {
         margin-top: 5px;
     }
+   
 }
