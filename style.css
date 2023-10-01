@@ -370,25 +370,28 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 100vh; /* Defina uma altura máxima desejada */
+        max-height: 70vh; /* Defina uma altura máxima desejada */
         z-index: 100;
     }
 
     #meuNav ul {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column; /* Empilhar os itens verticalmente */
+        align-items: center; /* Centralizar os itens horizontalmente */
         padding: 0;
-        margin-bottom: 1px;
+        margin: 0;
     }
 
     #meuNav ul li {
         list-style: none;
+        margin: 5px 0; /* Espaçamento entre os itens */
+        text-align: center; /* Centralizar o texto */
     }
 
     #meuNav ul li a {
         color: #fff;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .profile-img {
@@ -430,6 +433,7 @@ footer p {
         width: 100%;
         text-align: center;
         white-space: nowrap; /* Evita que o conteúdo do footer quebre para a próxima linha */
+        padding: 5px; /* Espaçamento interno */
     }
 
     .footer-left p,
@@ -443,6 +447,6 @@ footer p {
     }
     
     .footer-right {
-        margin-top: 8px;
+        margin-top: 5px;
     }
 }
