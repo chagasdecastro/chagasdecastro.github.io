@@ -366,9 +366,8 @@ footer p {
         width: 100vw;
         top: 0;
         left: 0;
-        width: 100%;
         background-color: #716075;
-        max-height: 15vh; /* Altura máxima de 80% da altura da tela */
+        max-height: 7vh;
         overflow-y: auto;
         z-index: 100;
     }
