@@ -190,7 +190,6 @@ footer {
     display: flex;
     margin-top: 60px;
     justify-content: space-between;
-    align-items: center;
     padding: 10px 0;
     box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.164); 
 }
@@ -198,27 +197,30 @@ footer {
 footer p {
     font-weight: bold;
     font-size: 16px;
-    margin-left: 200px;
 }
 
 .footer-left {
     flex-grow: 1; 
+    margin-left: 100px;
 }
 
 .footer-right {
-    margin-left: 300px; 
+    flex-grow: 1; 
+    margin-left: 100px; 
 }
 
 .footer-bg {
-    color: #fff;
     background-image: url('img/bg.png');
+    color: #fff;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     bottom: 0;
-    padding: 15px;
     position: absolute;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
 }
 
 .profile img {
