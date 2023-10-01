@@ -370,7 +370,7 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 25px; /* Defina a altura máxima desejada */
+        max-height: 70px; /* Defina a altura máxima desejada */
         z-index: 100;
     }
 
@@ -392,6 +392,10 @@ footer p {
         color: #fff;
         text-decoration: none;
         font-size: 9px;
+    }
+
+    .typing-text {
+        font-size: 11px;
     }
 
     .profile-img {
@@ -416,22 +420,27 @@ footer p {
         margin: 20px 0 0;
     }
 
-    header h1 {
-        font-size: 12;
-    }
-
     header p {
-        font-size: 11;
+        font-size: 10;
     }
 
     section {
-        margin: 0 10px;
+        margin: 0 15px;
         font-size: 10px;
+    }
+
+    section h5 {
+        font-size: 10px;
+    }
+
+    section p {
+        font-size: 9px;
     }
 
     footer {
         width: 100%;
         text-align: left;
+        margin: 0; /* Remover margem */
         padding: 5px; /* Espaçamento interno */
     }
     
