@@ -367,7 +367,7 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 7vh;
+        max-height: 8vh;
         overflow-y: auto;
         z-index: 100;
     }
@@ -375,7 +375,8 @@ footer p {
     #meuNav ul {
         display: flex;
         justify-content: space-between;
-        padding: 6px;
+        padding: 0;
+        margin-bottom: 6px;
     }
 
     #meuNav ul li {
@@ -392,7 +393,7 @@ footer p {
         display: none;
     }
 
-    #scrollToTopBtn {
+    .scrollToTopBtn {
         display: none;
     }
 }
