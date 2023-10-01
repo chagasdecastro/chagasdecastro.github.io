@@ -453,6 +453,7 @@ footer p {
         margin: 0 auto; /* Define margem automática para centralizar horizontalmente */
         max-width: 80%;
         height: 80%;
+        border-radius: 15px;
     }
 
     .col-md-3 {
