@@ -367,7 +367,7 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 8vh;
+        max-height: 10vh;
         overflow-y: auto;
         z-index: 100;
     }
@@ -376,7 +376,7 @@ footer p {
         display: flex;
         justify-content: space-between;
         padding: 0;
-        margin-bottom: 6px;
+        margin-bottom: 2px;
     }
 
     #meuNav ul li {
@@ -386,11 +386,17 @@ footer p {
     #meuNav ul li a {
         color: #fff;
         text-decoration: none;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .profile-img {
         display: none;
+    }
+
+    #meuBackground {
+        padding: 0; /* Remover qualquer padding */
+        margin: 0; /* Remover qualquer margem */
+        width: 100%; /* Ocupar toda a largura da tela */
     }
 
     .scrollToTopBtn {
