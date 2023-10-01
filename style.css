@@ -387,14 +387,14 @@ footer p {
 
     #meuNav ul li {
         list-style: none;
-        margin: 5px 0; 
+        margin: 4px 0; 
         text-align: center; /
     }
 
     #meuNav ul li a {
         color: #fff;
         text-decoration: none;
-        font-size: 7px;
+        font-size: 9px;
     }
 
     .typing-text {
