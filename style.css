@@ -361,9 +361,12 @@ footer p {
 
 @media (max-width: 768px) {
     body {
-        margin: 0;
-        width: 100vh;
         font-size: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 100%; /* Alterado para 100% */
+        box-sizing: border-box; 
     }
     /* Estilos para o menu no topo */
     #meuNav {
@@ -400,18 +403,26 @@ footer p {
 
     #meuBackground {
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vh;
-        height: fit-content;
-        z-index: -1; /* Colocar o background atrás de todo o conteúdo */
+        width: 100%; /* Alterado para 100% */
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        z-index: -1;
     }
 
     footer {
-        background-color: #716075; /* Cor de fundo */
+        background-color: #716075;
         font-size: 8px;
-        color: #fff; /* Cor do texto */
-        text-align: center; /* Centralizar o texto */
-        padding: 15px 0; /* Espaçamento interno no topo e na parte inferior */
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .footer-bg {
+        text-align: center;
+    }
+    
+    .footer-right {
+        margin-top: 10px;
     }
 }
