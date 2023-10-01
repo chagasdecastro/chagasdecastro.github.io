@@ -360,14 +360,7 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    body {
-        font-size: 10px;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
-        box-sizing: border-box; 
-    }
-    /* Estilos para o menu no topo */
+        /* Estilos para o menu no topo */
     #meuNav {
         position: fixed;
         width: 100%;
@@ -402,11 +395,20 @@ footer p {
 
     #meuBackground {
         position: fixed;
-        width: 100%; /* Alterado para 100% */
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
-        z-index: -1;
+        width: 100%; /* Definir a largura como 100% para ocupar toda a largura da tela */
+        margin: 0; /* Remover margem */
+        padding: 0; /* Remover preenchimento */
+        z-index: -1
+    }
+
+    main {
+        margin: 0; /* Remover margem */
+        padding: 0; /* Remover preenchimento */
+        width: 100%; /* Ocupar toda a largura da tela */
+    }
+
+    section {
+        margin: 0; /* Remover margem */
     }
 
     footer {
