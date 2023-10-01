@@ -94,10 +94,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     const svgElement = document.getElementById("meuSVG");
-
     const navElement = document.getElementById("meuNav");
     const backgroundElement = document.getElementById("meuBackground");
     const sections = document.querySelectorAll("section");
+    const headerTexts = document.querySelectorAll("#header h1, #header p"); // Seleciona os textos do header
 
     let coresAlternadas = false;
 
@@ -110,16 +110,24 @@ document.addEventListener('DOMContentLoaded', function() {
             sections.forEach(function(section) {
                 section.style.backgroundColor = "#a1a1a1";
             });
+            // Altere a cor dos textos do header para branco
+            headerTexts.forEach(function(element) {
+                element.style.color = "#fff";
+            });
         } else {
             navElement.style.backgroundColor = "#716075";
             backgroundElement.style.backgroundColor = "#e7e7e7";
             sections.forEach(function(section) {
                 section.style.backgroundColor = "#fff";
             });
+            // Reverta a cor dos textos do header para sua cor original
+            headerTexts.forEach(function(element) {
+                element.style.color = ""; // Isso removerá qualquer estilo de cor definido, revertendo para a cor original do CSS
+            });
         }
 
-        // Alterne o estado das cores
-        coresAlternadas = !coresAlternadas;
-    });
+    // Alterne o estado das cores
+    coresAlternadas = !coresAlternadas;
+});
 
 });

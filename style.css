@@ -149,6 +149,16 @@ section:hover {
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
+#meuSVG {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#meuSVG:hover {
+    stroke: #221722;
+    fill: #221722; 
+}
+
 h6 {
     font-weight: bold;
 }
@@ -344,155 +354,3 @@ footer p {
 .push {
     height: 100px;
 }
-
-@media screen and (max-width: 770px) {
-    body {
-        min-height: auto;
-        padding: 0;
-        font-size: 1.2em; 
-    }
-
-    header {
-        width: 85%;
-        margin-left: 15%;
-        position: relative;
-        height: auto;
-        padding: 0.625em 0; 
-    }
-
-    header p {
-        font-size: 1.2em;
-        position: absolute;
-        margin-left: 1.6em;
-
-    }
-
-    h1 {
-        position: fixed;
-        left: 0;
-    }
-
-    h5 {
-        font-size: 1.9em; 
-    }
-
-    h6 {
-        font-size: 1.3em; 
-    }
-
-    .typing-text {
-        font-size: 3.125vw;
-    }
-
-    nav {
-        width: 15%;
-        padding: 0.6em; 
-        overflow-y: auto;
-        height: 100vh !important;
-        bottom: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1em; 
-    }
-
-    #meuNav {
-        font-size: 1em; 
-    }
-
-    #meuBackground {
-        width: 100%;
-        font-size: 1.2em; 
-    }
-
-    section {
-        margin-left: 10em;
-        margin-right: 1.25em; 
-        padding: 0.5em;
-    }
-
-    section img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .profile {
-        width: 12em; 
-        height: 12em; 
-        border-radius: 50%;
-    }
-
-    .icon-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .icon {
-        max-width: 100%;
-        height: auto;
-    }       
-    
-    .card {
-        margin-left: 1.5em; 
-        margin-right: 1.5em; 
-        width: 70%;
-        height: 70%;
-    }
-
-    .card-body {
-        margin-left: 15em;
-        padding: 0.6em; 
-        text-align: center;
-    }
-
-    .col-md-3 {
-        width: 100%;
-        margin-bottom: 0.6em; 
-    }
-
-    .scrollToTopBtn {
-        align-items: center;
-        max-width: fit-content;
-        padding-bottom: 0.3em; 
-        border-radius: 50%;
-    }
-    
-    .custom-btn {
-        align-items: center;
-        width: auto;
-        padding: 0.3em 0.3em; 
-        font-size: 0.75em; 
-        line-height: 1;
-    }
-
-    ::placeholder {
-        font-size: 0.625em; 
-    }
-    
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100% !important;
-        justify-content: space-between;
-        padding: 0.3125em 0;
-    }
-
-    .footer-left,
-    .footer-right {
-        font-size: 0.3em;
-        line-height: 1.2;
-        margin: 0; 
-        padding: 0.3em 0; 
-    }
-
-    .footer-left {
-        padding-right: 1em; 
-    }
-
-    .footer-right br {
-        display: none;
-        margin-bottom: 0.2em; 
-    }
-}
-
