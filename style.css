@@ -368,6 +368,7 @@ footer p {
     }
     
     #meuNav {
+        position: fixed;
         width: 100%;
         top: 0;
         left: 0;
@@ -393,7 +394,7 @@ footer p {
     #meuNav ul li a {
         color: #fff;
         text-decoration: none;
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .typing-text {
