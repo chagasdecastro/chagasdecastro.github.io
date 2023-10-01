@@ -113,7 +113,7 @@ nav a {
 }
 
 .svg-container {
-    margin-bottom: 40px; /* Adicione a quantidade de espaçamento desejada aqui */
+    margin-bottom: 40px;
 }
 
 .card-body {
@@ -357,7 +357,6 @@ footer p {
 }
 
 @media (min-width: 769px) {
-    /* Exibir a imagem do perfil */
     .profile-img {
         display: block;
     }
@@ -365,7 +364,7 @@ footer p {
 
 @media (max-width: 768px) {
     body {
-        overflow-y: scroll; /* Adicione isso para permitir a rolagem vertical */
+        overflow-y: scroll;
     }
     
     #meuNav {
@@ -374,22 +373,22 @@ footer p {
         top: 0;
         left: 0;
         background-color: #716075;
-        max-height: 95px; /* Defina a altura máxima desejada */
+        max-height: 95px;
         z-index: 100;
     }
 
     #meuNav ul {
         display: flex;
         justify-content: space-between;
-        align-items: center; /* Centralizar os itens horizontalmente */
+        align-items: center;
         padding: 0;
         margin: 0;
     }
 
     #meuNav ul li {
         list-style: none;
-        margin: 5px 0; /* Espaçamento entre os itens */
-        text-align: center; /* Centralizar o texto */
+        margin: 5px 0; 
+        text-align: center; /
     }
 
     #meuNav ul li a {
@@ -407,21 +406,21 @@ footer p {
     }
 
     .svg-container {
-        margin-bottom: 30px; /* Adicione a quantidade de espaçamento desejada aqui */
+        margin-bottom: 30px; 
     }
 
     #meuBackground {
-        overflow-y: scroll; /* Adicione isso para permitir a rolagem vertical */
-        width: 100%; /* Definir a largura como 100% para ocupar toda a largura da tela */
-        margin: 0; /* Remover margem */
-        padding: 0; /* Remover preenchimento */
+        overflow-y: scroll; 
+        width: 100%; 
+        margin: 0; 
+        padding: 0;
         z-index: -1;
     }
 
     main {
-        margin: 0; /* Remover margem */
-        padding: 0; /* Remover preenchimento */
-        width: 100%; /* Ocupar toda a largura da tela */
+        margin: 0;
+        padding: 0; 
+        width: 100%;
     }
 
     header {
@@ -449,11 +448,8 @@ footer p {
     }
 
     .card-img-top {
-        display: block; /* Torna a imagem um bloco para centralizar */
-        margin: 0 auto; /* Define margem automática para centralizar horizontalmente */
-        max-width: 80%;
-        height: 80%;
-        border-radius: 15px;
+        display: block;
+        margin: 0 auto; 
     }
 
     .col-md-3 {
