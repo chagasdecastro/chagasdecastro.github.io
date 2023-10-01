@@ -351,3 +351,11 @@ footer p {
 .push {
     height: 100px;
 }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Altera a direção do flex para empilhar verticalmente */
+        align-items: flex-start; /* Alinha o conteúdo à esquerda */
+        padding: 10px; /* Reduz o preenchimento */
+    }
+}
