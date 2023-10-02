@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
             navElement.style.backgroundColor = "#221722";
             backgroundElement.style.backgroundColor = "#37283a";
             sections.forEach(function (section) {
-                section.style.backgroundColor = "#a1a1a1";
+                section.style.backgroundColor = "#EBECF0";
             });
             headerTexts.forEach(function (element) {
                 element.style.color = "#fff";
