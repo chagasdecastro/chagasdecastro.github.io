@@ -104,7 +104,7 @@ nav a {
 }
 
 nav a:hover {
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: #3c2e3d;
 }
 
@@ -144,7 +144,7 @@ section {
 }
 
 section:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -156,15 +156,6 @@ section:hover {
 #meuSVG:hover {
     stroke: #221722;
     fill: #221722; 
-}
-
-section h5 {
-    transition: color font-weight 0.3s; 
-}
-
-section h5:hover {
-    font-weight: bold;
-    color: #3c2e3d; 
 }
 
 h6 {
@@ -186,7 +177,7 @@ h6 {
 }
 
 .icon-container .icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 #contato {
@@ -338,29 +329,23 @@ footer p {
 }
 
 #scrollToTopBtn {
-    display: none;
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 99;
-    color: #413d40;
-    border-radius: 7px;
-    font-family: 'Jura', sans-serif;
     cursor: pointer;
-    transition: opacity 0.2s;
-    max-width: fit-content;
-    opacity: 0; 
     transition: opacity 0.3s ease;
+    opacity: 0;
 }
 
 #scrollToTopBtn.show {
-    opacity: 1; 
+    opacity: 1;
 }
 
-#scrollToTopBtn:hover {
-    background-color: #c8c8c9;
+#scrollToTopBtn svg {
+    width: 40px;
+    height: 40px;
 }
-
 .push {
     height: 100px;
 }
