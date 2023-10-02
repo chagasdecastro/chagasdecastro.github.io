@@ -117,7 +117,7 @@ nav a {
 }
 
 .card-body {
-    height: 250px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
