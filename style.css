@@ -179,9 +179,9 @@ h6 {
 .icon-container .icon {
     display: inline;
     align-items: center;
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+    width: 75px;
+    height: 75px;
+    margin-right: 8px;
     transition: transform 0.3s ease;
 }
 
