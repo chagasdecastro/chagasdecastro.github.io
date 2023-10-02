@@ -134,5 +134,4 @@ document.addEventListener('DOMContentLoaded', function() {
             botaoSGV.querySelector("path").setAttribute("stroke", "#fff"); 
         }
     });       
-
 });
