@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
             headerTexts.forEach(function (element) {
                 element.style.color = "";
             });
-            botaoSGV.querySelector("path").setAttribute("stroke", "currentColor"); 
+            botaoSGV.querySelector("path").setAttribute("stroke", "#221722"); 
         } else {
             svgElement.innerHTML = iconeModoEscuro;
             navElement.style.backgroundColor = "#221722";

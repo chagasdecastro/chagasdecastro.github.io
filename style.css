@@ -66,7 +66,7 @@ header p {
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
-    animation: typing 5s steps(50) infinite;
+    animation: typing 5s steps(50);
     margin: 0 auto;
     padding: 30px;
 }
@@ -170,9 +170,9 @@ h6 {
 .icon-container .icon {
     display: inline;
     align-items: center;
-    width: 70px;
-    height: 70px;
-    margin-right: 7px;
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
     transition: transform 0.3s ease;
 }
 
@@ -456,7 +456,7 @@ footer p {
     }
 
     #scrollToTopBtn {
-        margin-bottom: 120px; 
+        margin-bottom: 100px; 
     }
 
     footer {
