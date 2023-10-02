@@ -456,6 +456,10 @@ footer p {
         font-size: 12px;
     }
 
+    .card-body {
+        height: 300px;
+    }
+
     .card-img-top {
         display: block;
         margin: 0 auto; 
