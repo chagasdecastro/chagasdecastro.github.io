@@ -179,9 +179,9 @@ h6 {
 .icon-container .icon {
     display: inline;
     align-items: center;
-    width: 75px;
-    height: 75px;
-    margin-right: 8px;
+    width: 70px;
+    height: 70px;
+    margin-right: 7px;
     transition: transform 0.3s ease;
 }
 
@@ -441,7 +441,7 @@ footer p {
     }
 
     section {
-        margin: 0 25px;
+        margin: 0 30px;
     }
 
     section h5 {
