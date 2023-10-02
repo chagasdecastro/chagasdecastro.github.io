@@ -158,6 +158,15 @@ section:hover {
     fill: #221722; 
 }
 
+section h5 {
+    transition: color font-weight 0.3s; 
+}
+
+section h5:hover {
+    font-weight: bold;
+    color: #3c2e3d; 
+}
+
 h6 {
     font-weight: bold;
 }
