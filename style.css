@@ -14,6 +14,13 @@ body {
     "cv05", "cv06","cv09","cv10";
 }
 
+#gif-container {
+    position: absolute;
+    top: 10px; /* Ajuste o valor conforme necessário para posicionar o GIF verticalmente */
+    right: 10px; /* Ajuste o valor conforme necessário para posicionar o GIF horizontalmente */
+    z-index: 999; /* Garante que o GIF fique na parte superior de outros elementos */
+}
+
 header {
     background: linear-gradient(to bottom, #9b959c, transparent);
     color: #3d1d3d;
@@ -361,6 +368,10 @@ footer p {
         overflow-y: scroll;
     }
     
+    .gif-container {
+        display: none;
+    }
+
     #meuNav {
         position: fixed;
         width: 100%;
